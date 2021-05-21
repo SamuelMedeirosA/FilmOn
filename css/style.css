@@ -94,11 +94,37 @@ header nav a:hover{
 }
 
 .btn:hover{
-    background-color: #fff;
+    background-color:#fff;
     color: black;
 }
 
 .btn i{
     padding: 2px;
     font-size: 16px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
+}
+
+/*responsivo*/
+
+@media screen and (max-width: 700px){
+
+    header .container{
+    flex-direction: column;        
+    }
+
+    .btn{
+        margin-top: 5px;
+        width: 190px;
+        display: block;
+    }
+
 }
