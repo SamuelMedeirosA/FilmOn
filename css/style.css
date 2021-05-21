@@ -128,3 +128,56 @@ header nav a:hover{
     }
 
 }
+
+
+
+/*pag whind*/
+
+.filme-principal-whind{
+    font-size: 16px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.carrossel-filmes-whind{
+    margin-top: 100px;
+}
+
+.h3-whind{
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.title-whind{
+    text-align: center;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1060px){
+    
+    .iframe-whind{
+        width: 600px;
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    
+    .iframe-whind{
+        width: 600px;
+        height: 400px;
+        position: absolute;
+        transform: rotate(-90deg);
+    }
+
+}
