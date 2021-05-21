@@ -35,6 +35,10 @@ function play_whind(){
     window.location.href = "whind-film.html";
 }
 
+$('.btn').click(function(){
+    play_whind();
+})
+
 
 
 
