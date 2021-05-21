@@ -27,6 +27,14 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
+/*pag whind*/
+
+//var btn_play_whind = document.getElementsByClassName("btn-play");
+
+function play_whind(){
+    window.location.href = "whind-film.html";
+}
+
 
 
 
