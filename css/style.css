@@ -60,6 +60,7 @@ header nav a:hover{
     background: linear-gradient(90deg,rgba(0,0,0,0.5), var(--black)),url(../img/AAAABYSai8O0otg4UdP08F4Kcbh8Nuu-N92deZx0_fdm4MdbSAD3WWA1nzkFgQ6yT0oJzjE2wjAnMDZKbVOnKiX-ev3uFEYS.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
